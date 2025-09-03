@@ -20,14 +20,14 @@ const Hero = () => {
           <Button 
             variant="default" 
             size="lg" 
-            className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-gold-glow"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-gold-glow animate-glow"
           >
             Get Started
           </Button>
           <Button 
             variant="outline" 
             size="lg"
-            className="border-foreground/20 text-foreground hover:bg-card hover:border-primary font-medium px-8 py-3 rounded-lg transition-all duration-300"
+            className="border-salad-green/50 text-salad-green hover:bg-salad-green hover:text-background font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:shadow-green-glow"
           >
             View Our Work
           </Button>

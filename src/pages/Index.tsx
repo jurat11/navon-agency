@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import Portfolio from "@/components/Portfolio";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -7,6 +8,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Hero />
       <Services />
+      <Portfolio />
       <Footer />
     </div>
   );

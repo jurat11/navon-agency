@@ -43,7 +43,13 @@ All colors MUST be HSL.
     --hero-gradient: linear-gradient(135deg, hsl(214, 43%, 20%), hsl(214, 48%, 12%));
     --card-gradient: linear-gradient(145deg, hsl(214, 40%, 28%), hsl(214, 43%, 20%));
     --gold-glow: 0 0 20px hsl(45, 80%, 46% / 0.3);
+    --green-glow: 0 0 15px hsl(82, 60%, 50% / 0.4);
     --smooth-transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Salad Green Accent Colors */
+    --salad-green: 82 60% 50%;          /* #8BC34A - Fresh salad green */
+    --salad-green-light: 82 60% 65%;    /* Lighter variant */
+    --salad-green-dark: 82 60% 35%;     /* Darker variant */
     
     --sidebar-background: 214 48% 12%;
     --sidebar-foreground: 0 0% 100%;

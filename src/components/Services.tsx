@@ -47,8 +47,8 @@ const Services = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardHeader className="text-center pb-4">
-                  <div className="mx-auto mb-4 w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-primary/20 transition-all duration-300">
-                    <Icon className="w-8 h-8 text-primary group-hover:scale-110 transition-transform duration-300" />
+              <div className="mx-auto mb-4 w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center group-hover:bg-salad-green/20 transition-all duration-300 group-hover:animate-pulse-glow">
+                <Icon className="w-8 h-8 text-primary group-hover:text-salad-green group-hover:scale-110 transition-all duration-300" />
                   </div>
                   <CardTitle className="text-xl font-semibold text-card-foreground mb-2">
                     {service.title}
